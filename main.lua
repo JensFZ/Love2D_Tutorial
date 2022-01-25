@@ -28,6 +28,8 @@ bulletImg = nil
 bullets = {} -- array of bullets
 
 function love.load(arg)
+    love.graphics.setDefaultFilter('nearest', 'nearest')
+
     player.img = love.graphics.newImage('assets/Aircraft_03.png')
     bulletImg = love.graphics.newImage('assets/bullet_2_blue.png')
     enemyImg = love.graphics.newImage('assets/Aircraft_10.png')
