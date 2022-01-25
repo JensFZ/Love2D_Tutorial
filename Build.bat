@@ -1,0 +1,1 @@
+"c:\Program Files\WinRAR\WinRAR.exe" a -afzip ..\Build\game.love *.lua "assets"
