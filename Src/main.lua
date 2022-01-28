@@ -77,7 +77,7 @@ function love.update(dt)
         createEnemyTimer = createEnemyTimerMax
 
         -- Create an enemy
-        randomNumber = math.random(10, love.graphics.getWidth() - 10)
+        randomNumber = math.random(10, love.graphics.getWidth() - enemyImg:getWidth())
         newEnemy = { x = randomNumber, y = -10, img = enemyImg}
         table.insert(enemies, newEnemy)
     end
